@@ -9,3 +9,4 @@
     5. <a href='https://leetcode.com/problems/valid-parentheses/'>Valid Parentheses</a> (Easy - JS)
     6. <a href='https://leetcode.com/problems/concatenation-of-array/'>Concatenation Of Array</a> (Easy - JS)
     7. <a href='https://leetcode.com/problems/reverse-integer/'>Reverse Integer</a> (Medium - Python)
+    7. <a href='https://leetcode.com/problems/multiply-strings/'>Multiply Strings</a> (Medium - JS)
