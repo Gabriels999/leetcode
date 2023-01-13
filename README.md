@@ -9,5 +9,6 @@
     5. <a href='https://leetcode.com/problems/valid-parentheses/'>Valid Parentheses</a> (Easy - JS)
     6. <a href='https://leetcode.com/problems/concatenation-of-array/'>Concatenation Of Array</a> (Easy - JS)
     7. <a href='https://leetcode.com/problems/reverse-integer/'>Reverse Integer</a> (Medium - Python)
-    7. <a href='https://leetcode.com/problems/multiply-strings/'>Multiply Strings</a> (Medium - JS)
-    7. <a href='https://leetcode.com/problems/maximum-gap/'>Maximum Gap</a> (Hard - Python)
+    8. <a href='https://leetcode.com/problems/multiply-strings/'>Multiply Strings</a> (Medium - JS)
+    9. <a href='https://leetcode.com/problems/maximum-gap/'>Maximum Gap</a> (Hard - Python)
+    10. <a href='https://leetcode.com/problems/first-missing-positive'>First Missing Positive</a> (Hard - Python)
