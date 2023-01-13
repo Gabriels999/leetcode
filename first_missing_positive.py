@@ -1,3 +1,5 @@
+#Link = https://leetcode.com/problems/first-missing-positive
+
 class Solution:
     def firstMissingPositive(self, nums: list[int]) -> int:
         correct = set(range(1, len(nums)+1)) - set(nums)

@@ -1,6 +1,8 @@
+//Link = https://leetcode.com/problems/roman-to-integer/
+
 var romanToInt = function (s) {
     const checksDoubleConvert = function (s) {
-        const double_convert = {
+        const doubleConvert = {
             'IV': 4,
             'IX': 9,
             'XL': 40,
@@ -9,16 +11,16 @@ var romanToInt = function (s) {
             'CM': 900,
         }
         value = 0
-        for (let i = 0; i < Object.keys(double_convert).length; i++) {
-            if (s[0] + s[1] == Object.keys(double_convert)[i]) {
-                value = double_convert[s[0] + s[1]]
+        for (let i = 0; i < Object.keys(doubleConvert).length; i++) {
+            if (s[0] + s[1] == Object.keys(doubleConvert)[i]) {
+                value = doubleConvert[s[0] + s[1]]
                 return value
             }
         }
         return value
     }
 
-    const single_convert = {
+    const singleConvert = {
         'I': 1,
         'V': 5,
         'X': 10,
@@ -30,7 +32,7 @@ var romanToInt = function (s) {
     total = 0
     for (let i = 0; i < s.length; i++) {
         if (checksDoubleConvert(s[i] + s[i + 1]) == 0) {
-            total += single_convert[s[i]]
+            total += singleConvert[s[i]]
         }
         else {
             total += checksDoubleConvert(s[i] + s[i + 1])

@@ -1,3 +1,5 @@
+// Link = https://leetcode.com/problems/calculate-digit-sum-of-a-string/
+
 var digitSum = function (s, k) {
     const divideStringGroups = function (s, k) {
         if (typeof (s) == 'object') {
@@ -5,7 +7,7 @@ var digitSum = function (s, k) {
         }
         let bigArray = []
         let count = k
-        let actualPart = '' //devo trocar isso para list ?
+        let actualPart = ''
         for (let i = 0; i < s.length; i++) {
             actualPart += s[i]
             count--

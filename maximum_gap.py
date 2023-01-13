@@ -1,12 +1,14 @@
+#Link = https://leetcode.com/problems/maximum-gap/
+
 class Solution:
     def maximumGap(self, nums: list[int]) -> int:
-        difference = 0
+        distance = 0
         nums.sort()
         for i in range(len(nums)-1):
-            op = abs((nums[i + 1]) - nums[i])
-            if op > difference:
-                difference = op
-        return difference
+            temporary_distance = abs((nums[i + 1]) - nums[i])
+            if temporary_distance > distance:
+                distance = temporary_distance
+        return distance
 a = Solution()
 print(
     a.maximumGap([

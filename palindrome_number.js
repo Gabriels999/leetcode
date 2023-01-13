@@ -1,14 +1,16 @@
+//Link = https://leetcode.com/problems/palindrome-number/
+
 var isPalindrome = function (x) {
     let total = 0
-    let ordenated_count = 0
-    const number_string = x.toString()
-    for (let i = (number_string.length - 1); i >= 0; i--) {
-        if (number_string[i] == number_string[ordenated_count]) {
+    let ordenatedCount = 0
+    const numberString = x.toString()
+    for (let i = (numberString.length - 1); i >= 0; i--) {
+        if (numberString[i] == numberString[ordenatedCount]) {
             total++
         }
-        ordenated_count++
+        ordenatedCount++
     }
-    if (total == number_string.length) {
+    if (total == numberString.length) {
         return true
     }
     return false
